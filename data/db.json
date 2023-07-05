@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "name": " roshna",
+      "id": 1
+    },
+    {
+      "name": " parvathi",
+      "id": 2
+    }
+  ],
+  "mark": [
+    {
+      "subject": " geology",
+      "int1": " 20",
+      "int2": "20",
+      "ext": "20",
+      "mark_id": "1",
+      "id": "Y-vEEbM"
+    },
+    {
+      "subject": " fisheries",
+      "int1": " 20",
+      "int2": "20",
+      "ext": "20",
+      "mark_id": "1",
+      "id": "gcdvGxw"
+    },
+    {
+      "subject": " aquaculture",
+      "int1": " 25",
+      "int2": "25",
+      "ext": "50",
+      "mark_id": "1",
+      "id": "2Pa5YjN"
+    },
+    {
+      "subject": " malayalam",
+      "int1": " 20",
+      "int2": "22",
+      "ext": "50",
+      "mark_id": "2",
+      "id": "hsYXcFR"
+    },
+    {
+      "subject": " future studies",
+      "int1": " 20",
+      "int2": "20",
+      "ext": "50",
+      "mark_id": "2",
+      "id": "qT3WEcZ"
+    },
+    {
+      "subject": " social",
+      "int1": " 5",
+      "int2": "6",
+      "ext": "20",
+      "mark_id": "1",
+      "id": "N_rH4oZ"
+    }
+  ]
+}

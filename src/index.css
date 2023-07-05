@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main{
+  justify-content: center;
+}
+.inputss{
+  display: flex;
+  justify-content:end ;
+  margin-top: 50px;
+  margin-right: 20%;
+}
+button {
+  background: rgba(74, 73, 68, 0.44); 
+  border: 0;
+  padding: 8px;
+  border-radius: 10px; 
+}
+input {
+  padding :8px;
+  border-radius: 10px;
+  background: whitesmoke; 
+  border: 0;
+  width: 20%;
+}
+.tableHandle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 60%; 
+}
+th {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgba(211, 204, 204, 0.741);
+  padding: 8px;
+}
+.markcells td{
+  padding: 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+td{
+  border-radius: 10px;
+  background: rgba(245, 245, 245, 0.905);
+  text-align: center;
+ 
+}
+td.viewmarks{
+  text-align: end;
+}
+.form-control {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
 }
