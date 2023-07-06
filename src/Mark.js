@@ -14,7 +14,7 @@ const Mark = () => {
 
     useEffect(() => {
         
-        fetch("http://localhost:8000/mark/")
+        fetch("https://roshna-roland.github.io/Task_8/mark/")
         .then(res =>{
             return res.json();
             
