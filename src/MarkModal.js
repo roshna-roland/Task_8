@@ -34,7 +34,7 @@ const MarkModal = () => {
        // e.preventDefault();
         const Mark ={subject,int1,int2,ext,mark_id};
         
-        fetch("http://localhost:8000/mark/",{
+        fetch("https://roshna-roland.github.io/Task_8/mark/",{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body : JSON.stringify(Mark)
