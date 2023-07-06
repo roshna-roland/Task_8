@@ -7,7 +7,8 @@ import Title from "./Title";
 const Mark = () => {
     const [mark,setMark] = useState(null);
     const {id} = useParams();
-    var total =0; 
+    var grandTotal =0; 
+    var CGPA =0;
     
     
 
@@ -21,8 +22,8 @@ const Mark = () => {
         .then(mark => {
             const new_mark=mark.filter((mark)=> mark.mark_id === id)
             setMark(new_mark);
-            var sec =new_mark.int2;
-            console.log(sec)
+            // var sec =new_mark.int2;
+            // console.log(sec)
             
             
         })  
@@ -58,15 +59,21 @@ const Mark = () => {
         };
         
         const cgpa= ()=>{
-            if(mark !== null){
-            var key =parseInt(mark.key);
+            if(mark !== null)
+            {mark.map((mark,key)=>{
+
+           // var Key =parseInt(mark.key);
             var fir =mark.int1;
             var sec =mark.int2;
             var exter =mark.ext;
-           
-            console.log(key,sec);
+            var Total =(parseInt(mark.ext)+parseInt(mark.int1)+parseInt(mark.int2))/100;
+            grandTotal += Total;
+            CGPA =grandTotal/(key+1);
             }
+            )
+            return CGPA*10 ;
         }
+     }
         
 
     return (   
@@ -78,9 +85,6 @@ const Mark = () => {
                 <MarkModal />
             </form>
 
-            
-        
-            
             {toAddData() && <div className="tableHandle">
                 <table className="markcells">
                     <thead>
@@ -103,10 +107,6 @@ const Mark = () => {
                             <td>{parseInt(mark.int2)}</td>
                             <td>{parseInt(mark.ext)}</td>
                             <td>{parseInt(mark.ext)+parseInt(mark.int1)+parseInt(mark.int2)}</td>
-                           { console.log(parseInt(mark.int1))
-                            //  {total} +=  {parseInt(mark.ext)+parseInt(mark.int1)+parseInt(mark.int2)};
-                            // console.log(total)
-                           }
                          </tr>
                         )
                     )}
@@ -116,7 +116,7 @@ const Mark = () => {
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td>{cgpa()}</td>
+                            <td>{cgpa(mark)}</td>
                         </tr>
                     </tbody>  
                 </table>    

@@ -31,7 +31,7 @@ const MarkModal = () => {
       };
     
     const handleSubmit = (e) => {
-        e.preventDefault();
+       // e.preventDefault();
         const Mark ={subject,int1,int2,ext,mark_id};
         
         fetch("http://localhost:8000/mark/",{

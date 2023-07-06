@@ -19,7 +19,7 @@ const Table = () => {
     },[]);
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        //e.preventDefault();
         const data ={name};
         fetch('http://localhost:8000/data',{
             method:'POST',

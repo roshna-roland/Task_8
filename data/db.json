@@ -7,13 +7,21 @@
     {
       "name": " parvathi",
       "id": 2
+    },
+    {
+      "name": " navya",
+      "id": 3
+    },
+    {
+      "name": " shilpa",
+      "id": 4
     }
   ],
   "mark": [
     {
       "subject": " geology",
       "int1": " 20",
-      "int2": "20",
+      "int2": "21",
       "ext": "20",
       "mark_id": "1",
       "id": "Y-vEEbM"
@@ -57,6 +65,22 @@
       "ext": "20",
       "mark_id": "1",
       "id": "N_rH4oZ"
+    },
+    {
+      "subject": " science",
+      "int1": " 20",
+      "int2": "20",
+      "ext": "50",
+      "mark_id": "3",
+      "id": "XC5h1-T"
+    },
+    {
+      "subject": " geograpy",
+      "int1": " 25",
+      "int2": "25",
+      "ext": "50",
+      "mark_id": "4",
+      "id": "qLzkhNE"
     }
   ]
 }
