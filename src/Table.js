@@ -21,7 +21,7 @@ const Table = () => {
     const handleSubmit = (e) => {
         //e.preventDefault();
         const data ={name};
-        fetch('http://localhost:8000/data',{
+        fetch('https://roshna-roland.github.io/Task_8/data',{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body : JSON.stringify(data)
