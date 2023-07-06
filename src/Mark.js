@@ -14,7 +14,7 @@ const Mark = () => {
 
     useEffect(() => {
         
-        fetch("https://roshna-roland.github.io/Task_8/mark/")
+        fetch("https://roshna-roland.github.io/Task_8/data/db/mark/")
         .then(res =>{
             return res.json();
             
