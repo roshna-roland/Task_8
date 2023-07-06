@@ -9,7 +9,7 @@ const Table = () => {
     // const history = useHistory();
 
     useEffect(() =>{
-        fetch('http://localhost:8000/data')
+        fetch('https://roshna-roland.github.io/Task_8/data')
             .then(res =>{
                 return res.json();
             })
