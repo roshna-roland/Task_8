@@ -1,4 +1,4 @@
-import * as React from 'react';
+import  React from 'react';
 import { useState } from "react";
 import Modal from '@mui/material/Modal';
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
