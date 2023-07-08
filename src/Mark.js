@@ -14,7 +14,7 @@ const Mark = () => {
 
     useEffect(() => {
         
-        fetch("https://roshna-roland.github.io/Task_8/data/db/mark/")
+        fetch("https://my-json-server.typicode.com/roshna-roland/Task_8_Json/mark/")
         .then(res =>{
             return res.json();
             
