@@ -9,7 +9,7 @@ const Table = () => {
     // const history = useHistory();
 
     useEffect(() =>{
-        fetch('https://roshna-roland.github.io/Task_8/data/db/data')
+        fetch('https://my-json-server.typicode.com/roshna-roland/Task_8_Json/data')
             .then(res =>{
                 return res.json();
             })
@@ -21,7 +21,7 @@ const Table = () => {
     const handleSubmit = (e) => {
         //e.preventDefault();
         const data ={name};
-        fetch('https://roshna-roland.github.io/Task_8/data/db/data',{
+        fetch('https://my-json-server.typicode.com/roshna-roland/Task_8_Json/data',{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body : JSON.stringify(data)
